@@ -28,6 +28,7 @@ public class Principal {
                    
     }
     
+//metodo contructor de la clase principal 
     public Principal() {
          for (int i = 0; i < t.state.length; i++) {
             for (int j = 0; j < t.state.length; j++) {
