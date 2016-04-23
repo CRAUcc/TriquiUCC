@@ -61,3 +61,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/TriquiUCC/nbproject/private/
+/TriquiUCC/build/
+/TriquiUCC/dist/
