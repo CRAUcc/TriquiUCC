@@ -114,6 +114,7 @@ public class Principal {
             
             P.CapturarDatos();
             done = P.validarGanador();
+            if(done != ' ')break;
             System.out.print(P.imprimir());
             P.getComputerMove();
             done = P.validarGanador();
@@ -121,7 +122,7 @@ public class Principal {
                       
         }
         while (done == ' ');
-        P.imprimir();
+        System.out.print(P.imprimir());
         if (done == 'X') {
             System.out.println("Jugador 1 gano");
         } else if (done == 'O') {
@@ -129,6 +130,7 @@ public class Principal {
         }
     }
     
+    //se realiza el metodo validar el ganador en el cual se miran todas las opciones probables que se pueden hacer
         public char validarGanador()
     {
         for (int i = 0; i < t.state.length; i++) {
